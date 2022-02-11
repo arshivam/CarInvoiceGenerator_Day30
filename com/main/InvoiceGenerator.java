@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.main;
 
 public class InvoiceGenerator {
 

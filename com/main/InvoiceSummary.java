@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.main;
 
 import java.util.Objects;
 
