@@ -1,12 +1,8 @@
-package com.test;
+package com.main;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-
-import com.main.InvoiceGenerator;
-import com.main.InvoiceSummary;
-import com.main.Ride;
 
 class InvoiceServiceTest {
 	@Test
@@ -33,5 +29,4 @@ class InvoiceServiceTest {
 		InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 30.0);
 		assertEquals(expectedInvoiceSummary, summary);
 	}
-
 }
